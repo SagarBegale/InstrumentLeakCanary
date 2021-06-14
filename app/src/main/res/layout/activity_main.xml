@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:padding="16dp"
+  tools:context="com.interview.android.leaktest.MainActivity">
+
+  <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/layoutTextCount"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/main_seconds_to_count">
+
+    <com.google.android.material.textfield.TextInputEditText
+      android:id="@+id/editTextCount"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:inputType="number"
+      android:textAlignment="center"
+      android:textSize="30sp" />
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <Button
+    android:id="@+id/buttonStart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="@string/main_start" />
+
+</LinearLayout>

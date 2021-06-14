@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Sample</string>
+
+  <string name="main_start">Start</string>
+  <string name="main_enter_value">Enter a value</string>
+  <string name="main_seconds_to_count">Seconds to count</string>
+
+  <string name="count_guess">Guess</string>
+  <string name="count_result_bad">Bad count</string>
+  <string name="count_result_excellent">Excellent count!</string>
+  <string name="count_result_good">Good count!</string>
+  <string name="count_result_difference">Difference: %1$d seconds</string>
+  <string name="count_result_timeout">Timeout</string>
+  <string name="count_result_timeout_difference">More than %1$d seconds have passed!</string>
+</resources>
